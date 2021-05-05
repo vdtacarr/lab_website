@@ -2,68 +2,124 @@
 <html>
 
 <head>
-  <title>Deep Lab - a page</title>
+  <title>SIPL</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
    <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="style/style.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style/main.css" />
 </head>
 
 <body>
-  <div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-         <h1><a class="logo"></a> ICMD Lab</h1>
-        </div>
-      </div>
+  <header class="dark-blue">
 
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-           <li><a href="indexs.html">Ana Sayfa</a></li>
-          <li class="selected"><a href="calismalar.html">Çalışmalar</a></li>
-          <li> <a href="kisiler.html">Kişiler</a></li>
-          <li><a href="iletisim.html">İletişim</a></li>
-        </ul>
+    <div class="container">
+      <div id="navbar">
+        <div class="logo">
+          <img src="style/itu.png" alt="ITU" />
+        </div>
+        <div class="logo-text">
+          <a href="#">Signal and Information Processing Laboratory</a>
+        </div>
+        <div class="menubar">
+          <ul>
+            <li> 
+              <a href="index.html"> Ana Sayfa</a>
+              <a href="calismalar.html" class="selected"> Çalışmalar</a>
+              <a href="kisiler.html" > Kişiler</a>
+  
+            </li>
+          </ul>
+  
+        </div>
+        
+  
       </div>
     </div>
-
-    <div id="site_content">
-      <div class="sidebar">
-
-        <ul>
-          <li><a href="https://ehb.itu.edu.tr/personel/ogretim-uyeleri/eksioglue">Ender Mete Eksioglu</a></li>
-          <li><a href="https://avesis.itu.edu.tr/karaoglu16/">Hasan Hüseyin Karaoglu</a></li>
-          <li><a href="#">link 3</a></li>
-          <li><a href="#">link 4</a></li>
-        </ul>
-
-      </div>
+  </header>
+  
+  <section id="site_content">
+    <p >ÖNEMLİ YAYINLAR</p>
       <div id="content">
-        <p>SOME PUBLISHMENTS:</p>
+        
         <ol>
-          <li>O.A. Topal, S. Gecgel, E.M. Eksioglu, G. Karabulut Kurt, “Identification of smart jammers: Learning-based approaches using wavelet preprocessing”, Physical Communication, vol. 39, April 2020.  <a href="https://doi.org/10.1016/j.phycom.2020.101029">https://doi.org/10.1016/j.phycom.2020.101029</a> </li>
-          <li>O. Colak, E.M. Eksioglu, “Image Denoising using Patch Ordering and 3D Transformation of Patches”, IET Image Processing, vol. 13, no. 12, pp. 2636-2646, November 2019.<a href="https://doi.org/10.1049/iet-ipr.2018.6431">https://doi.org/10.1049/iet-ipr.2018.6431</a> </li>
-          <li>E.M. Eksioglu, A. K. Tanc, “Denoising AMP for MRI Reconstruction: BM3D-AMP-MRI”, SIAM Journal on Imaging Sciences, vol. 11, no. 3, pp. 2090-2109, September 2018.<a class="third" href="https://epubs.siam.org/doi/10.1137/18M1169655">Denoising AMP for MRI reconstruction: BM3D-AMP-MRI</a></li>
-          <li> E.M. Eksioglu, “Decoupled Algorithm for MRI Reconstruction Using Nonlocal Block Matching Model: BM3D-MRI”, Journal of Mathematical Imaging and Vision, vol. 56, no. 3, pp. 430-440, November 2016.<a href="https://link.springer.com/article/10.1007/s10851-016-0647-7">Decoupled Algorithm for MRI Reconstruction using Nonlocal
+          <li>O.A. Topal, S. Gecgel, E.M. Eksioglu, G. Karabulut Kurt, “Identification of smart jammers: Learning-based approaches using wavelet preprocessing”, Physical Communication, vol. 39, April 2020.  <a href="https://doi.org/10.1016/j.phycom.2020.101029">  https://doi.org/10.1016/j.phycom.2020.101029</a> </li>
+          <li>O. Colak, E.M. Eksioglu, “Image Denoising using Patch Ordering and 3D Transformation of Patches”, IET Image Processing, vol. 13, no. 12, pp. 2636-2646, November 2019.<a href="https://doi.org/10.1049/iet-ipr.2018.6431">  https://doi.org/10.1049/iet-ipr.2018.6431</a> </li>
+          <li>E.M. Eksioglu, A. K. Tanc, “Denoising AMP for MRI Reconstruction: BM3D-AMP-MRI”, SIAM Journal on Imaging Sciences, vol. 11, no. 3, pp. 2090-2109, September 2018.<a class="third" href="https://epubs.siam.org/doi/10.1137/18M1169655">  Denoising AMP for MRI reconstruction: BM3D-AMP-MRI</a></li>
+          <li> E.M. Eksioglu, “Decoupled Algorithm for MRI Reconstruction Using Nonlocal Block Matching Model: BM3D-MRI”, Journal of Mathematical Imaging and Vision, vol. 56, no. 3, pp. 430-440, November 2016.<a href="https://link.springer.com/article/10.1007/s10851-016-0647-7">  Decoupled Algorithm for MRI Reconstruction using Nonlocal
 Block Matching Model: BM3D-MRI</a></li>
 
         </ol>
-
-
-        <h3>EQUIPMENTS</h3>
-         <table class="tab" style="width:100%; border-spacing:0;" >
-          <tr><th>Item</th><th># Number</th><th>Description</th></tr>
-          <tr><td>Intel Core i9 9900 </td><td>3X</td><td>Equipped with 6 Nvidia RTX 2080 Ti GPUs</td></tr>
-          <tr><td>Intel Core i7 8700 </td><td>4x</td><td>Equipped with 2 Nvidia RTX 2060 SUPER GPUs</td></tr>
-          <tr><td>Intel Core i5 3070K</td><td>1x</td><td>Equipped with 1 Nvidia GeForce GTX 1080 Ti GPU</td></tr>
-          <tr><td>Intel Core i5 3570</td><td>1x</td><td>Equipped with 1 Nvidia GeForce GTX 1080 Ti GPU</td></tr>
+      </div>
+      <p >ÇALIŞMA İSTASYONLARI</p>
+      <div class="table">
+         <table class="tab">
+          <tr><th>İŞLEMCİ</th><th># TANE</th><th>TANIMI</th></tr>
+          <tr><td>Intel Core i9 9900</td><td>3 X</td><td>6 Nvidia RTX 2080 Ti GPU ile güçlendirildi</td></tr>
+          <tr><td>Intel Core i7 8700</td><td>4 X</td><td>2 Nvidia RTX 2060 SUPER GPU ile güçlendirildi</td></tr>
+          <tr><td>Intel Core i5 3070K</td><td>1 X</td><td>1 Nvidia GeForce GTX 1080 Ti GPU ile güçlendirildi</td></tr>
+          <tr><td>Intel Core i5 3570  </td><td>1 X</td><td> 1 Nvidia GeForce GTX 1080 Ti GPU ile güçlendirildi</td></tr>
         </table>
-          <div class="left"><img src="style/dncnn.png" width="800px" height="200px" alt="example graphic" /></div>
+        <img src="style/IMG_20210422_180851.jpg"/>
+      </div>
+  </section>
+
+      <section class="footer">
+        <div class="all">
+          <div class="right">
+          <div class="up">
+            <img src="style/itu.png" alt="ITU">
+          </div>
+          <div class="down">
+            <div class="box1 box">
+             <a href="https://www.facebook.com/itu1773"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="box2 box">
+              <a href="https://twitter.com/itu1773"><i class="fab fa-twitter"></i></a>
+
+            </div>
+            <div class="box3 box">
+              <a href="https://www.instagram.com/itu1773/"><i class="fab fa-instagram"></i></a>
+
+            </div>
+            <div class="box4 box">
+              <a href="https://www.youtube.com/itu1773"><i class="fab fa-youtube"></i></a>
+
+            </div>
+            <div class="box5 box">
+              <a href="https://www.linkedin.com/school/itu1773"><i class="fab fa-linkedin"></i></a>
+
+            </div>
+
+          </div>
+        </div>
+          <div class="adress">
+            
+            <div class="campus sim2">
+              <p >İTÜ-Ayazağa Kampüsü </p>
+            </div>
+            <div class="faculty sim">
+              <p >Elektrik-Elektronik Fakültesi </p>
+            </div>
+            <div class="department sim">
+              <p >Elektronik Haberleşme Mühendisliği Bölümü   </p>
+            </div>
+            <div class="semt sim">
+              <p >34469, Maslak/İstanbul</p>
+            </div>
+            <div class="phone sim2">
+              <p>+90 (212) 285 3613</p>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+        
+          
 
 
 
-  </div>
 </body>
 </html>
