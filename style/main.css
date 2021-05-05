@@ -1,0 +1,252 @@
+html{
+    font-style: sans-serif;
+    background: white;
+    max-height: 100%;
+    overflow: auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/*navbar*/
+
+.dark-blue{
+    background: #336ea2;
+    max-height: 25%;
+}
+.container{
+width: 100%;
+margin-bottom: 10px;   
+}
+#navbar{
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 0.5rem;
+    height: 100px;
+}
+#navbar .menubar ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+    padding-left: 0px;
+}
+#navbar .menubar ul li a{
+    padding: 3px;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 5px;
+}
+#navbar .menubar ul li a:hover{
+background: coral;
+}
+#navbar .menubar ul .selected{
+    background: blue;
+    padding: 2px;
+}
+#navbar .logo-text{
+    padding: 0px;
+    margin-left: 5px;
+    font-size: 30px;
+    background: #f2ea42;
+    text-align: center;
+    float: center;
+    }
+#navbar .logo-text a{
+color: black;
+padding: 0px;
+margin: 0px;
+    }
+#navbar .logo-text a:hover{
+    background: red;
+    padding: 0.5rem;
+}
+#navbar .logo img{
+width: 100px;
+height: 100px;
+border-radius: 50px;
+}
+/*kisiler middle*/
+.middle{
+    height: 300px;
+}
+.middle ul{
+    background: black;
+    opacity: 0.8 ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none;
+    font-style: italic;
+    height: 250px;
+}
+.middle ul li{
+    margin-top: 1rem;
+
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.middle ul li a{
+    opacity: 0.6;
+    padding: 0.25rem;
+    margin: 0.25rem;
+}
+.middle ul li a:hover{
+    background-color: red;
+}
+/* calismalar content*/
+#site_content .table{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 150px;
+    width: 1000px;
+    height: 200px;
+    border: 5px solid black;
+    padding: 10px;
+}
+#site_content #content{
+    width: 1000px;
+    margin-left: 150px;
+    padding: 5px;
+    background-color: white;
+    border: 5px solid black;
+}
+#site_content ol{
+    margin-left: rem;
+    margin-right: 5rem;
+}
+#site_content a{
+    color: lightcoral;
+}
+#site_content li{
+    margin: 10px;
+}
+#site_content p{
+    margin-left: 35rem;
+    font-size: 20px;
+    background: yellow;
+    display: inline-block;
+    }
+#site_content  .equipments{
+    margin-top: 20px;
+    margin-right: 100px;
+    background: khaki;
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+}
+#site_content .table img{
+    width: 400px ;
+    height: 200px;
+}
+
+#site_content .table .tab{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    }
+#site_content .table .tab tr{
+        background: darkorange;
+    }
+/* main page content*/
+
+.content .images{
+    display: flex;
+    justify-content: space-around;
+} 
+.content .images img{
+    width: 300px;
+    height: 300px;
+}
+.content .text{
+    padding: 5px;
+    margin-left: 300px;
+}
+.content .text .alt-text{
+    border: 5px solid black;
+    width: 1000px;
+    position: relative;
+    right: 150px;
+
+}
+.content .text .alt-text img{
+    width: 500px;
+    position: relative;
+    left: 100px;
+}
+.content .text .alt-text h2{
+    position: relative;
+    left: 10px;
+}
+.content .text .alt-text p{
+    position: relative;
+    left: 10px;
+}
+.content .text h1{
+    background-color:gray;
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    color:black;
+    left: 100px;
+}
+.content .text p{
+    font-style: normal;
+    font-weight: bold"
+}
+
+/*footer*/
+.footer .all{
+    background-color: #336ea2;
+    height: 400px;
+    margin-top: 3rem;
+    position: relative;
+}
+.footer .all .right{
+    background-color: maroon;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: 250px;
+}
+.footer .all .up img{
+    margin-top: 20px;
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    left: 390px;
+    top: 13px;
+    margin-bottom: 20px;
+}
+.footer .all .down{
+    position: relative;
+    left: 350px;
+    top: 15x;
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+}
+.footer .all .adress{
+    background-color: maroon ;
+    border: 3px solid black;
+    padding: 5px;
+    display: inline-block ;
+    position: relative;
+    left: 100px;
+    bottom: 130px;
+}
+.footer .all .adress  p{
+    font-size: 20px;
+    color: white;
+}
+.footer .all .adress .sim p{
+    font-size: 14px;
+}
+.footer .all .adress .sim2 p{
+    font-size: 20px;
+}
+
